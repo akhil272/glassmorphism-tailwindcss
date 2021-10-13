@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-text {
+  @apply text-white bg-transparent focus:outline-none border border-r-0 tracking-wide border-t-0 border-l-0;
+}
